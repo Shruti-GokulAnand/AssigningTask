@@ -1,9 +1,3 @@
--- MySQL dump 10.13  Distrib 5.7.15, for Win64 (x86_64)
---
--- Host: localhost    Database: task_management
--- ------------------------------------------------------
--- Server version	5.1.59-community
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -42,7 +36,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (7,'2017-04-30','Joey','2017-04-01','UI',1),(8,'2017-04-30','Ross','2017-04-01','Backend',1),(9,'2017-04-28','Monica','2017-04-02','Backend',1),(10,'2017-04-30','Chandler','2017-04-01','Data analysis',3),(11,'2017-04-18','Rachel','2017-04-11','Sales',3),(12,NULL,'Phoebe',NULL,NULL,5),(13,NULL,'Mike',NULL,NULL,5),(14,NULL,'Sawyer',NULL,NULL,4);
+INSERT INTO `employee` VALUES (1,'2019-05-20','Shruti','2017-05-01','UI',1),(2,'2019-03-20','Akshay','2019-03-01','Backend',1),(3,'2019-05-28','Mohan','2019-05-05','Backend',1),(4,'2019-04-27','Madhavi','2019-04-07','Data analysis',2);
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -67,7 +61,7 @@ CREATE TABLE `project` (
 
 LOCK TABLES `project` WRITE;
 /*!40000 ALTER TABLE `project` DISABLE KEYS */;
-INSERT INTO `project` VALUES (5,'Marriott'),(4,'SWA'),(1,'IGG'),(3,'ADIDAS');
+INSERT INTO `project` VALUES (1,'AMEX'),(2,'SITA');
 /*!40000 ALTER TABLE `project` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -79,5 +73,3 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2017-04-26 15:39:33
